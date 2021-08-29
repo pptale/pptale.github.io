@@ -45,7 +45,7 @@ footer {
     }
 
 h2, h3, h4 {
-    font-family: 'Enriqueta', sans-serif !important;
+    font-family: 'Enriqueta', sans-serif;
     color: #6060d0 !important;
 }
 
@@ -57,7 +57,7 @@ a {
 
 .container p, .container ul li {
     font-size: 18px;
-    font-family: 'Enriqueta', sans-serif !important;
+    font-family: 'Enriqueta', sans-serif ;
     line-height: 28px;
 }
 
@@ -66,7 +66,7 @@ a {
     background-color: #6060d0 !important;
     border-color: #6060d0 !important;
     font-size: 18px !important;
-    font-family: 'Enriqueta', sans-serif !important;
+    font-family: 'Enriqueta', sans-serif ;
     margin-bottom:20px !important;
 }
 
@@ -84,7 +84,7 @@ a {
    width: 80%;
 }
 
-/*Research page starts*/
+/Research page starts/
 .publication-details tr {
     margin-bottom: 10px;
     display: block;
@@ -92,15 +92,15 @@ a {
 
 .publication-details td {
     font-size: 18px;
-    font-family: 'Enriqueta', sans-serif !important;
+    font-family: 'Enriqueta', sans-serif ;
     vertical-align: top;
     min-width: 120px;
 }
-/*Research page ends*/
+/Research page ends/
 
 .emailid {
     font-size: 18px;
-    font-family: 'Enriqueta', sans-serif !important;
+    font-family: 'Enriqueta', sans-serif ;
     line-height: 28px;
 }
 

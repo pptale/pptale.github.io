@@ -1,0 +1,134 @@
+﻿body {
+    color: #000;
+}
+
+
+h1 a {
+    font-family: 'Enriqueta', sans-serif;
+    color: #6060d0 !important;
+    font-size: 50px;
+}
+
+    h1 a:hover {
+        text-decoration: none;
+        color: #000 !important;
+    }
+
+.navbar-default {
+    background-color: #eee !important;
+    border-color: #eee;
+}
+
+.navbar ul li a {
+    font: 18px "ABeeZee", Tahoma, sans-serif;
+}
+
+.navbar-nav > li > a {
+    padding-bottom: 16px !important;
+    color: #000 !important;
+}
+
+    .navbar-nav > li > a:hover {
+        background-color: #dfdfdf !important;
+    }
+
+.navbar-default .navbar-nav > .active > a {
+    background-color: #dfdfdf !important;
+}
+
+footer {
+    margin-top: 30px;
+}
+
+    footer p {
+        text-align: center !important;
+    }
+
+h2, h3, h4 {
+    font-family: 'Enriqueta', sans-serif !important;
+    color: #6060d0 !important;
+}
+
+a {
+    color: #6060d0 !important;
+}
+
+
+
+.container p, .container ul li {
+    font-size: 18px;
+    font-family: 'Enriqueta', sans-serif !important;
+    line-height: 28px;
+}
+
+.btn-info {
+    color: #fff;
+    background-color: #6060d0 !important;
+    border-color: #6060d0 !important;
+    font-size: 18px !important;
+    font-family: 'Enriqueta', sans-serif !important;
+    margin-bottom:20px !important;
+}
+
+.accordion .btn.active.focus, .accordion .btn.active:focus, .accordion .btn.focus, .accordion .btn:active.focus, .accordion .btn:active:focus, .accordion .btn:focus {
+    outline: none;
+    outline-offset: 0px;
+}
+
+.homepage-self-img
+{
+    text-align:center;
+}
+
+.homepage-self-img img {
+   width: 80%;
+}
+
+/*Research page starts*/
+.publication-details tr {
+    margin-bottom: 10px;
+    display: block;
+}
+
+.publication-details td {
+    font-size: 18px;
+    font-family: 'Enriqueta', sans-serif !important;
+    vertical-align: top;
+    min-width: 120px;
+}
+/*Research page ends*/
+
+.emailid {
+    font-size: 18px;
+    font-family: 'Enriqueta', sans-serif !important;
+    line-height: 28px;
+}
+
+.experience h3{
+    margin-bottom: 20px !important;
+}
+
+.experience ul{
+    padding-inline-start: 10px !important;
+}
+
+.experience ul li span{
+    float: right;
+}
+
+.copyright{
+    font-size: 14px !important;
+}
+
+.research{
+    margin-bottom: 0px !important;
+    margin-top: 12px !important;
+}
+
+
+@media (min-width: 1200px){
+    .container {
+        width: 970px !important;
+    }
+    
+}

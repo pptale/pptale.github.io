@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Prafullkumar Tale</title>
+    <meta name="description" content="Prafullkumar's homepage" />
+    <meta name="author" content="Prafullkumar Tale" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="common.css" media="all">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" sizes="20x20">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link href='http://fonts.googleapis.com/css?family=ABeeZee' rel='stylesheet' type='text/css' />
+    <link href='http://fonts.googleapis.com/css?family=Enriqueta' rel='stylesheet' type='text/css' />
+    <script>
+        $(document).ready(function() {
+            $('[data-toggle="collapse"]').click(function() {
+            $(this).toggleClass( "active" );
+            if ($(this).hasClass("active")) {
+                $(this).text("Close");
+            } else {
+                $(this).text("Read more");
+            }
+            });
+            // document ready  
+        });
+        </script>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header section starts -->
+        <div class="header-section">
+            <div>
+                <div>
+                    <h1><a href="index.html">Prafullkumar Tale</a></h1>
+                </div>
+            </div>
+            <nav class="navbar navbar-default">
+                <div class="container-fluid">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li class="active"><a href="research.html">Research</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="misc.html">Misc</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <!-- Header section ends -->
+        <!-- Main content starts -->
+
+        <div>
+            <div class="col c12">
+                <h2> Journal Publications  </h2>
+                <h3> (along with their conference versions) </h3>
+            </div>
+        </div>
+        <hr/>
+        <!-- <div class="publication-details">
+            <div class="col c12">
+                <h3>( J-8 ) On the Parameterized Approximability of Contraction to Classes of Chordal Graphs</h3>
+                <h3>(Paper, Presentation)</h3>
+                    <table>
+                        <tr>
+                            <td> <b>Co-authors:</b> </td>
+                            <td> Spoorthy Gunda, Pallavi Jain, Daniel Lokshtanov, Saket Saurabh </td>
+                        </tr>
+                        <tr>
+                            <td><b>Journal:</b></td>
+                            <td>ACM Transactions on Computation Theory (accepted)</td>
+                        </tr>
+                        <tr>
+                            <td><b>Conference:</b></td>
+                            <td>A preliminary version in Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, APPROX/RANDOM 2020</td>
+                        </tr>
+                        <tr>
+                            <td><b>Summary:</b></td>
+                            <td>Clique Contraction is FPT, however, it does not admit a polynomial kernel.  Split Contraction is W[1]-Hard, where as Chordal Contraction is W[2]-Hard. Inspired by the intractable results, we study them from the viewpoint of parameterized approximation.</td>
+                        </tr>
+                    </table>
+            </div>
+        </div> -->
+
+        <div class="accordion publication-details">
+          <p>( J-8 ) On the Parameterized Approximability of Contraction to Classes of Chordal Graphs</p>
+	  <p> (in ToCT, APPROX 2020) [<a href="#" target="_blank">Paper</a>, <a href="#" target="_blank">Presentation</a>]</p>
+          <div id="demo" class="collapse">
+            <table>
+              <tr>
+                <td> <b>Co-authors:</b> </td>
+                <td> Spoorthy Gunda, Pallavi Jain, Daniel Lokshtanov, Saket Saurabh </td>
+              </tr>
+              <tr>
+                <td><b>Journal:</b></td>
+                <td>ACM Transactions on Computation Theory (accepted)</td>
+              </tr>
+              <tr>
+                <td><b>Conference:</b></td>
+                <td>A preliminary version in Approximation, Randomization, and Combinatorial Optimization. Algorithms and Techniques, APPROX/RANDOM 2020</td>
+              </tr>
+              <tr>
+                <td><b>Summary:</b></td>
+                <td>Clique Contraction is FPT, however, it does not admit a polynomial kernel.  Split Contraction is W[1]-Hard, where as Chordal Contraction is W[2]-Hard. Inspired by the intractable results, we study them from the viewpoint of parameterized approximation.</td>
+              </tr>
+            </table>
+          </div>
+          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo">Read more</button>
+        </div>
+        <hr />
+	
+        <div class="accordion publication-details">
+            <p>( J-7 ) Paths to Trees and Cacti</p>
+            <p>in TCS 2021/CIAC 2017[<a href="#" target="_blank">Paper</a>, <a href="#" target="_blank">Presentation</a>]</p>
+            <div id="demo2" class="collapse">
+                <table>
+                    <tr>
+                        <td><b>Co-authors:</b></td>
+                        <td>Akanksha Agrawal, Lawqueen Kanesh, Saket Saurabh</td>
+                    </tr>
+                    <tr>
+                        <td><b>Journal:</b></td>
+                        <td>Theoretical Computer Science 860 : 98 − 116, (2021)</td>
+                    </tr>
+                    <tr>
+                        <td><b>Conference:</b></td>
+                        <td>A preliminary version in 10th International Conference on Algorithms and Complexity, CIAC 2017.</td>
+                    </tr>
+                    <tr>
+                      <td><b>Summary:</b></td>
+                      <td>Path-Contraction and Tree-Contraction are
+			FPT but Tree-Contraction does not admit a
+			polynomial kernel while Path-Contraction
+			does. In light of these results, two natural
+			questions are: <br/>
+			1. What additional parameter we can associate
+			with Tree-Contraction such that it admits a
+			polynomial kernel? <br/>
+			2. What additional parameter we can associate
+			with Tree-Contraction such that an FPT
+			algorithm with combination of these
+			parameterizations leads to an algorithm that
+			generalizes the FPT algorithm on trees? <br/>
+			In this paper we focus on the first question.
+
+			We addressed the second question ( J-3 ).</td>
+                    </tr>
+                </table>
+            </div>
+            <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo2">Read more</button>
+        </div>
+        <!-- Main content ends -->
+
+	<!-- Footer section -->
+        <footer>
+            <div class="container-fluid">
+                <p class="copyright text-muted">Copyright &copy; Prafullkumar Tale</p>
+            </div>
+        </footer>
+
+    </div>
+</body>
+</html>

@@ -54,14 +54,54 @@
         <!-- Main content starts -->
 
 	<!-- Journal Entries starts -->	
+
         <div>
             <div class="col c12">
                 <h3> Journal Publications</h3>
                 <p> (along with their conference versions. 
-                Also see <a href="https://dblp.org/pid/186/2898.html", target="_blank">DBLP</a>.)<p>
+                Also, see <a href="https://dblp.org/pid/186/2898.html", target="_blank">DBLP</a>.)<p>
             </div>
         </div>
         <hr/>
+
+<div class="accordion publication-details">
+          <p> <b> ( J-11 ) On the Parameterized Complexity of Grid
+          Contraction. </b> </p>
+          <p>(in JCSS 2022, SWAT 2020) [<a href="https://arxiv.org/abs/2008.07967" target="_blank">Paper</a>, <a href="./docs/2020-SWAT-Presentation.pdf" target="_blank">Presentation</a>]</p>
+          <div id="demo-j11" class="collapse">
+            <table>
+              <tr>
+                <td><b>Co-authors:</b></td>
+                <td> Saket Saurabh, Ueverton Dos Santos Souza </td>
+              </tr>
+		 <tr>
+                <td><b>Journal:</b></td>
+                <td> (To appear) Journal of Computer and System Sciences (JCSS)(2022)</td>
+              </tr>
+              <tr>
+                <td><b>Conference:</b></td>
+                <td> 17th Scandinavian Symposium and Workshops on Algorithm Theory, SWAT
+		  2020 </td>
+              </tr>
+              <tr>
+                <td><b>Summary:</b></td>
+                <td> In this article, we initiate the study of Grid Contraction
+		  from the parameterized complexity point of view. In
+		  this problem, an input is a graph G and an integer k,
+		  and the goal is to decide one can convert G into a grid by at
+		  most k edge contractions. We present a single exponential
+		  fixed parameter tractable algorithm for this problem. We
+		  complement this result by proving that unless ETH fails, this
+		  algorithm can not be improved significantly. We also present a
+		  polynomial kernel for this problem.
+		</td>
+              </tr>
+            </table>
+          </div>
+          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo-j11">Read more</button>
+        </div>
+	<hr />
+
 
 	<Div class="accordion publication-details">
           <p> <b> ( J-10 ) On the Parameterized Complexity of Maximum
@@ -442,7 +482,7 @@
               </tr>
               <tr>
                 <td><b>Journal:</b></td>
-                <td>Algorithmica Volume 80(9): 2637 − 2655 (2018)</td>
+                <td> Algorithmica Volume 80(9): 2637 − 2655 (2018)</td>
               </tr>
               <tr>
                 <td><b>Conference:</b></td>
@@ -482,20 +522,95 @@
           <div class="col c12">
             <h3> Conference Publications</h3>
             <p> (that do not have journal publications yet.  
-              Also see <a href="https://dblp.org/pid/186/2898.html", target="_blank">DBLP</a>.)</p>
+              Also, see <a href="https://dblp.org/pid/186/2898.html", target="_blank">DBLP</a>.)</p>
           </div>
         </div>
         <hr/>
 
 	<Div class="accordion publication-details">
-          <p> <b> ( C-6 ) A Framework for Parameterized Subexponential
+          <p> <b> ( C-7 ) Parameterized Complexity of Weighted Multicut in Trees. </b> </p>
+          <p> (in WG 2022)
+          [<!--a href="https://arxiv.org/abs/2110.15098"
+          target="_blank">Paper </a>, <a href="./docs/2022-SODA-slides.pdf"
+          target="_blank">Presentation</a-->]</p>
+          <div id="demo-c7" class="collapse">
+            <table>
+              <tr>
+                <td><b>Co-authors:</b></td>
+                <td> Esther Galby, Daniel Marx, Philipp Schepper, Roohani Sharma
+		</td>
+              </tr>
+              <tr>
+                <td><b>Conference:</b></td>
+                <td> International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2022)  </td>
+              </tr>
+              <tr>
+                <td><b>Summary:</b></td>
+                <td> The Multicut problem is a classical cut problem
+			where given an undirected graph G, a set of pairs of vertices P,
+			and a budget k. 
+			The goal is to determine if there is a set S of at most k edges
+			such that for each (s,t) in P, G - S has no path from s to t.
+			In the weighted version of the problem, one is additionally given 
+			a weight function, the goal is to determine if there is a solution 
+			of size at most k and weight at most w.
+			Bousquet et al. [STACS 2009] asked whether Weighted Multicut on trees is FPT.
+  			In this article, we answer this question positively
+			by designing an algorithm using a very recent technique of directed flow augmentation by Kim et al. [STOC 2022].
+
+ 		</td>
+              </tr>
+            </table>
+          </div>
+          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo-c7">Read more</button>
+        </div>
+	<hr />
+
+<Div class="accordion publication-details">
+          <p> <b> ( C-6 ) The Complexity of Contracting Bipartite Graphs into Small Cycles. </b> </p>
+          <p> (in WG 2022)
+          [<!--a href="https://arxiv.org/abs/2110.15098"
+          target="_blank">Paper </a>, <a href="./docs/2022-SODA-slides.pdf"
+          target="_blank">Presentation</a-->]</p>
+          <div id="demo-c6" class="collapse">
+            <table>
+              <tr>
+                <td><b>Co-authors:</b></td>
+                <td> R. Krithika, Roohani Sharma
+		</td>
+              </tr>
+              <tr>
+                <td><b>Conference:</b></td>
+                <td> International Workshop on Graph-Theoretic Concepts in Computer Science (WG 2022) </td>
+              </tr>
+              <tr>
+                <td><b>Summary:</b></td>
+                <td> 
+			The C_q-Contractibility problem takes 
+			as input an undirected simple graph G and determines whether G can be
+			transformed into C_q (the induced cycle on q vertices)
+			using only edge contractions. 
+			In this paper, we show that both C_5-Contractibility and C_4-Contractibility are NP-complete on bipartite graphs. 
+			This completes a dichotomy results and answers open questions stated in 
+			Dabrowski and Paulusma [IPL 2017].
+		</td>
+              </tr>
+            </table>
+          </div>
+          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo-c6">Read more</button>
+        </div>
+	<hr />
+
+
+	<Div class="accordion publication-details">
+          <p> <b> ( C-5 ) A Framework for Parameterized Subexponential
           Algorithms for Generalized Cycle Hitting Problems on Planar
           Graphs. </b> </p>
-          <p> (to appear in SODA 2022)
+          <p> (in SODA 2022)
           [<a href="https://arxiv.org/abs/2110.15098"
           target="_blank">Paper </a>, <a href="./docs/2022-SODA-slides.pdf"
           target="_blank">Presentation</a> by Daniel Neuen]</p>
-          <div id="demo-c6" class="collapse">
+          <div id="demo-c5" class="collapse">
             <table>
               <tr>
                 <td><b>Co-authors:</b></td>
@@ -513,11 +628,11 @@
 		  i.e. they remain NP-hard.
 		  However, most times, we can exploit planarity
 		  to get improved algorithms compared to what is possible for general graphs.
-		  While there are certain algorithmic ideas, like
+		  While there are specific algorithmic ideas, like
 		  ‘bidimensionality’, which were used multiple times
 		  to get such improvements,
 		  the algorithms we get are highly
-		  problem-specific and they do not give a general understanding of why such improvement
+		  problem-specific, and they do not give a general understanding of why such improvement
 		  is possible for planar graphs.
 		  The main contribution of our project is formulating a family
 		  of deletion-type problems and showing that we can
@@ -529,16 +644,16 @@
               </tr>
             </table>
           </div>
-          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo-c6">Read more</button>
+          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo-c5">Read more</button>
         </div>
 	<hr />
 
 
 	<div class="accordion publication-details">
-          <p> <b> ( C-5 ) Parameterized Complexity of Maximum Edge-Colorable Subgraph.</b></p>
+          <p> <b> ( C-4 ) Parameterized Complexity of Maximum Edge-Colorable Subgraph.</b></p>
           <p>(in COCOON 2020) [<a href="https://arxiv.org/abs/2008.07953"
           target="_blank">Paper</a>, <a href="./docs/2020-COCOON-Presentation.pdf" target="_blank">Presentation</a> by M. Kundu]</p>
-          <div id="demo-c5" class="collapse">
+          <div id="demo-c4" class="collapse">
             <table>
               <tr>
                 <td><b>Co-authors: </b></td>
@@ -562,41 +677,6 @@
                   Parameterized Complexity. We obtain various FPT
                   algorithms, kernelization algorithms and a
                   kernelization lower bound.
-		</td>
-              </tr>
-            </table>
-          </div>
-          <button type="button" class="btn btn-info research" data-toggle="collapse" data-target="#demo-c5">Read more</button>
-        </div>
-	<hr />
-
-
-	<div class="accordion publication-details">
-          <p> <b> ( C-4 ) On the Parameterized Complexity of Grid
-          Contraction. </b> </p>
-          <p>(in SWAT 2020) [<a href="https://arxiv.org/abs/2008.07967" target="_blank">Paper</a>, <a href="./docs/2020-SWAT-Presentation.pdf" target="_blank">Presentation</a>]</p>
-          <div id="demo-c4" class="collapse">
-            <table>
-              <tr>
-                <td><b>Co-authors:</b></td>
-                <td> Saket Saurabh, Ueverton Dos Santos Souza </td>
-              </tr>
-              <tr>
-                <td><b>Conference:</b></td>
-                <td> 17th Scandinavian Symposium and Workshops on Algorithm Theory, SWAT
-		  2020 </td>
-              </tr>
-              <tr>
-                <td><b>Summary:</b></td>
-                <td> In this article, we initiate the study of Grid Contraction
-		  from the parameterized complexity point of view. In
-		  this problem, an input is a graph G and an integer k,
-		  and the goal is to decide one can convert G into a grid by at
-		  most k edge contractions. We present a single exponential
-		  fixed parameter tractable algorithm for this problem. We
-		  complement this result by proving that unless ETH fails, this
-		  algorithm can not be improved significantly. We also present a
-		  polynomial kernel for this problem.
 		</td>
               </tr>
             </table>

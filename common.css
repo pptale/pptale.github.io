@@ -125,8 +125,32 @@ a {
     margin-top: 12px !important;
 }
 
+hr {
+    border-top: 1px solid #ddd !important;
+}
 
-@media (min-width: 1200px){
+.summary-btn {
+    width:100%;
+    display:inline-block;
+}
+
+.summary-btn button {
+    float: right;
+}
+
+.summary-details p {
+    padding-top:20px;
+}
+
+.journal {
+    color: #434391
+}
+
+.conference {
+    color: #6098d0;
+}
+
+@media (min-width: 1200px) {
     .container {
         width: 970px !important;
     }

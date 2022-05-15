@@ -147,12 +147,12 @@ hr {
 }
 
 .conference {
-    color: #6098d0;
+    color: #800D0D;
 }
 
 @media (min-width: 1200px) {
     .container {
         width: 970px !important;
     }
-    
+
 }

@@ -150,6 +150,18 @@ hr {
     color: #800D0D;
 }
 
+.right-link{
+    float:right;
+}
+
+table {
+    font-size: 18px;
+    font-family: 'Enriqueta', sans-serif;
+    line-height: 28px;
+    border-collapse: collapse;
+    width: 100%;
+  }
+    
 @media (min-width: 1200px) {
     .container {
         width: 970px !important;

@@ -143,12 +143,17 @@ hr {
 }
 
 .journal {
-    color: #434391
+    color: #000000
 }
 
 .conference {
-    color: #800D0D;
+    color: #000000;
 }
+
+.paper {
+    color: #6060d0;
+}
+
 
 .right-link{
     float:right;
@@ -162,9 +167,20 @@ table {
     width: 100%;
   }
     
+.summary-link {
+    font-size: 18px;
+    font-family: 'Enriqueta', sans-serif;
+    line-height: 28px;
+}
+
 @media (min-width: 1200px) {
     .container {
         width: 970px !important;
     }
-
 }
+
+.bibentry-article{border-left:thick solid #808080;padding-left:5px}
+
+.bibentry-conference{border-left:thick solid #eaa228;padding-left:5px} 
+
+.bibentry-journal{border-left:thick solid #579575;padding-left:5px}
